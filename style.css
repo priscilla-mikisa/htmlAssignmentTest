@@ -1,0 +1,152 @@
+.mainBody{
+ background-color: rgb(128, 123, 123) ;
+}
+.container{
+    background-color: blueviolet;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 8%;
+}
+.landingSite{
+    background-color: rgb(224, 163, 175);
+    border-radius: 20px;
+}
+.nav{
+    background-color: rgb(224, 163, 175);
+    padding: 5%;
+    display: flex;
+    gap:10%;
+    border-radius: 20px;
+}
+.navList{
+    list-style: none;
+    display: flex;
+    gap: 5%;
+    margin-top: 2%;
+}
+.navListRight{
+    list-style: none;
+    display: flex;
+    gap: 5%;
+}
+.body{
+    display: flex;
+    gap: 20%;
+    padding: 5%;
+}
+.endOfLandingSite{
+    background-color: aliceblue;
+    border-radius: 0 20px 0 20px;
+}
+.endList{
+    list-style: none;
+    display: flex;
+    gap:20%;
+    padding-left: 7%;
+}
+.hStudy{
+    font-size: 3.5rem;
+}
+.learnArea{
+    padding: 15px;
+    border-radius: 20px;
+}
+.image{
+    width:150%;
+    border-radius:10px ;
+}
+.navButton{
+    padding: 10px;
+    width: 200%;
+    background-color: blueviolet;
+    margin-left: 20%;
+    border-radius: 20px;
+}
+.searchBar{
+    padding: 10px;
+    border-radius: 20px;
+    background-color: rgb(224, 163, 175);
+}
+@media screen and (min-width:280px) and (max-width:1000px){
+    .container{
+        background-color: blueviolet;
+        margin-left: 5%;
+        margin-right: 5%;
+        padding: 2%;
+    }
+    .landingSite{
+        background-color: rgb(224, 163, 175);
+        border-radius: 10px;
+    }
+    .nav{
+        background-color: rgb(224, 163, 175);
+        padding: 2%;
+        display: flex;
+        gap:1%;
+        border-radius: 20px;
+    }
+    .navList{
+        list-style: none;
+        display: flex;
+        gap: 1%;
+        margin-top: 1%;
+    }
+    .navListRight{
+        list-style: none;
+        display: flex;
+        gap: 1%;
+    }
+    .body{
+        display: flex;
+        flex-direction: column;
+        gap: 20%;
+        padding: 2%;
+    }
+    .endOfLandingSite{
+        background-color: aliceblue;
+        border-radius: 0 10px 0 10px;
+        margin-left: 2%;
+    }
+    .endList{
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        gap:20%;
+        padding-left: 3%;
+    }
+    .hStudy{
+        font-size: 3.5rem;
+        margin-bottom: 2%;
+    }
+    .learnArea{
+        padding: 10px;
+        border-radius: 20px;
+    }
+    .image{
+        width:100%;
+        border-radius:10px ;
+        margin-top: 10%;
+    }
+    .navButton{
+        padding: 5px;
+        width: 60%;
+        background-color: blueviolet;
+        margin-left: 10%;
+        margin-top: 10%;
+        border-radius: 20px;
+        font-size: 0.5rem;
+    }
+    .searchBar{
+        padding: 5px;
+        border-radius: 20px;
+        margin-top: 5%;
+        background-color: rgb(224, 163, 175);
+        font-size: 0.5rem;
+    }
+    .firstHeading{
+        font-size: 1rem;
+    }
+    .firstHeading1{
+        font-size: 0.5rem;
+    }
+}
