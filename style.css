@@ -82,19 +82,18 @@
         background-color: rgb(224, 163, 175);
         padding: 2%;
         display: flex;
+        flex-direction: column;
         gap:1%;
         border-radius: 20px;
     }
     .navList{
         list-style: none;
         display: flex;
-        gap: 1%;
         margin-top: 1%;
     }
     .navListRight{
         list-style: none;
         display: flex;
-        gap: 1%;
     }
     .body{
         display: flex;
@@ -129,7 +128,7 @@
     }
     .navButton{
         padding: 5px;
-        width: 60%;
+        width: 150%;
         background-color: blueviolet;
         margin-left: 10%;
         margin-top: 10%;
