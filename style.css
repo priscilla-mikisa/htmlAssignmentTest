@@ -1,50 +1,35 @@
-.mainBody{
- background-color: rgb(128, 123, 123) ;
-}
-.container{
-    background-color: blueviolet;
-    margin-left: 10%;
-    margin-right: 10%;
-    padding: 8%;
-}
-.landingSite{
-    background-color: rgb(224, 163, 175);
+.landingpage{
+    background-color: rgb(225, 143, 113);
     border-radius: 20px;
+    box-shadow: 10px 10px #080808;
 }
 .nav{
-    background-color: rgb(224, 163, 175);
-    padding: 5%;
+    background-color: rgb(225, 143, 113);
+    padding: 2%;
     display: flex;
-    gap:10%;
+    gap:6%;
+    margin-left: 10%;
     border-radius: 20px;
 }
-.navList{
-    list-style: none;
-    display: flex;
-    gap: 5%;
-    margin-top: 2%;
-}
-.navListRight{
-    list-style: none;
-    display: flex;
-    gap: 5%;
+.WebsiteTitle{
+    margin-top: 1.5%;
 }
 .body{
     display: flex;
     gap: 20%;
     padding: 5%;
 }
-.endOfLandingSite{
+.footer{
     background-color: aliceblue;
-    border-radius: 0 20px 0 20px;
+    border-radius: 0 0 20px 20px;
 }
-.endList{
+.previewAtFooter{
     list-style: none;
     display: flex;
     gap:20%;
     padding-left: 7%;
 }
-.hStudy{
+.studyAnytime{
     font-size: 3.5rem;
 }
 .learnArea{
@@ -52,48 +37,64 @@
     border-radius: 20px;
 }
 .image{
-    width:150%;
+    width:90%;
     border-radius:10px ;
 }
-.navButton{
-    padding: 10px;
-    width: 200%;
+.signIn{
+    margin-top: 1%;
+    text-decoration: none;
+    color:black;
+}
+.signupButton{
+    padding: 1px;
+    width: 5%;
     background-color: blueviolet;
-    margin-left: 20%;
-    border-radius: 20px;
+    border-radius: 10px;
 }
 .searchBar{
-    padding: 10px;
+    padding: 3px;
     border-radius: 20px;
     background-color: rgb(224, 163, 175);
 }
-@media screen and (min-width:280px) and (max-width:1000px){
-    .container{
-        background-color: blueviolet;
-        margin-left: 5%;
-        margin-right: 5%;
-        padding: 2%;
-    }
-    .landingSite{
+.coursesDirector{
+    padding: 5px;
+    width: 10%;
+    color: black;
+    text-decoration: none;
+    border-radius: 10px;
+    margin-left: 10%;
+    margin-top: 1%;
+}
+.courses{
+    margin-top: 2%;
+}
+@media screen and (min-width:280px) and (max-width:400px){
+    .landingpage{
         background-color: rgb(224, 163, 175);
         border-radius: 10px;
+    }
+    .WebsiteTitle{
+        margin-top: 1.5%;
+        font-size: 0.5rem;
     }
     .nav{
         background-color: rgb(224, 163, 175);
         padding: 2%;
         display: flex;
         flex-direction: column;
-        gap:1%;
+        gap:0;
+        font-size: 1rem;
         border-radius: 20px;
     }
-    .navList{
-        list-style: none;
-        display: flex;
+    .signIn{
         margin-top: 1%;
+        margin-left: 12%;
+        text-decoration: none;
+        color:black;
     }
-    .navListRight{
-        list-style: none;
-        display: flex;
+    .coursesDirector{
+        font-size: 1rem;
+        display:none ;
     }
     .body{
         display: flex;
@@ -101,19 +102,18 @@
         gap: 20%;
         padding: 2%;
     }
-    .endOfLandingSite{
+    .footer{
         background-color: aliceblue;
         border-radius: 0 10px 0 10px;
         margin-left: 2%;
     }
-    .endList{
+    .previewAtFooter{
         list-style: none;
         display: flex;
-        flex-direction: column;
-        gap:20%;
-        padding-left: 3%;
+        gap:10%;
+        font-size: 0.5rem;
     }
-    .hStudy{
+    .studyAnytime{
         font-size: 2rem;
         margin-bottom: 2%;
     }
@@ -126,26 +126,298 @@
         border-radius:10px ;
         margin-top: 10%;
     }
-    .navButton{
+    .signupButton{
         padding: 5px;
-        width: 150%;
+        width: 40%;
         background-color: blueviolet;
-        margin-left: 10%;
         margin-top: 10%;
         border-radius: 20px;
         font-size: 0.5rem;
     }
     .searchBar{
         padding: 5px;
+        width: 30%;
         border-radius: 20px;
         margin-top: 5%;
         background-color: rgb(224, 163, 175);
         font-size: 0.5rem;
     }
-    .firstHeading{
+    .WebsiteTitle{
         font-size: 1rem;
     }
-    .firstHeading1{
+}
+@media screen and (min-width:412px) and (max-width:800px){
+    .landingpage{
+        background-color: rgb(224, 163, 175);
+        border-radius: 10px;
+    }
+    .WebsiteTitle{
+        margin-top: 2%;
+        font-size: 15rem;
+    }
+    .nav{
+        background-color: rgb(224, 163, 175);
+        padding: 2%;
+        display: flex;
+        flex-direction: column;
+        gap:0;
+        font-size: 2rem;
+        border-radius: 20px;
+    }
+    .signIn{
+        margin-top: 1%;
+        margin-left: 12%;
+        text-decoration: none;
+        color:black;
+    }
+    .coursesDirector{
+        padding: 5px;
+        width: 10%;
+        color: black;
+        text-decoration: none;
+        border-radius: 10px;
+        margin-left: 10%;
+        margin-top: 1%;
+        font-size: 3rem;
+        display:none ;
+
+    }
+    .body{
+        display: flex;
+        flex-direction: column;
+        gap: 20%;
+        padding: 2%;
+    }
+    .footer{
+        background-color: aliceblue;
+        border-radius: 0 10px 0 10px;
+        margin-left: 2%;
+    }
+    .previewAtFooter{
+        list-style: none;
+        display: flex;
+        gap:20%;
+        font-size: 0.5rem;
+    }
+    .studyAnytime{
+        font-size: 2rem;
+        margin-bottom: 2%;
+    }
+    .learnArea{
+        padding: 10px;
+        border-radius: 20px;
+        font-size: 1rem;
+        margin-left: 6%;
+    }
+    .image{
+        width:100%;
+        border-radius:10px ;
+        margin-top: 10%;
+    }
+    .signupButton{
+        padding: 10px;
+        width: 60%;
+        background-color: blueviolet;
+        margin-top: 10%;
+        border-radius: 20px;
+        font-size: 1rem;
+    }
+    .searchBar{
+        padding: 10px;
+        width: 60%;
+        border-radius: 20px;
+        margin-top: 5%;
+        background-color: rgb(224, 163, 175);
+        font-size: 1rem;
+    }
+    .WebsiteTitle{
+        font-size: 1rem;
+    }
+    .coursesDirector{
+        font-size: 0.5rem;
+    }
+}
+@media screen and (min-width:810px) and (max-width:1000px){
+    .landingpage{
+        background-color: rgb(224, 163, 175);
+        border-radius: 10px;
+    }
+    .WebsiteTitle{
+        margin-top: 2%;
+        font-size: 15rem;
+    }
+    .nav{
+        background-color: rgb(224, 163, 175);
+        padding: 2%;
+        display: flex;
+        flex-direction: column;
+        gap:0;
+        font-size: 3rem;
+        border-radius: 20px;
+    }
+    .signIn{
+        margin-top: 1%;
+        margin-left: 12%;
+        text-decoration: none;
+        color:black;
+    }
+    .coursesDirector{
+        padding: 5px;
+        width: 10%;
+        color: black;
+        text-decoration: none;
+        border-radius: 10px;
+        margin-left: 10%;
+        margin-top: 1%;
+        font-size: 3rem;
+        display:none ;
+
+    }
+    .body{
+        display: flex;
+        flex-direction: column;
+        gap: 20%;
+        padding: 2%;
+        font-size: 2rem;
+    }
+    .footer{
+        background-color: aliceblue;
+        border-radius: 0 10px 0 10px;
+        margin-left: 2%;
+    }
+    .previewAtFooter{
+        list-style: none;
+        display: flex;
+        gap:20%;
+        font-size: 1rem;
+    }
+    .studyAnytime{
+        font-size: 5rem;
+        margin-bottom: 2%;
+    }
+    .learnArea{
+        padding: 10px;
+        border-radius: 20px;
+        font-size: 1.5rem;
+        margin-left: 10%;
+    }
+    .image{
+        width:100%;
+        border-radius:10px ;
+        margin-top: 10%;
+    }
+    .signupButton{
+        padding: 10px;
+        width: 60%;
+        background-color: blueviolet;
+        margin-top: 10%;
+        border-radius: 20px;
+        font-size: 1.5rem;
+    }
+    .searchBar{
+        padding: 10px;
+        width: 60%;
+        border-radius: 20px;
+        margin-top: 5%;
+        background-color: rgb(224, 163, 175);
+        font-size: 1.5rem;
+    }
+    .WebsiteTitle{
+        font-size: 1rem;
+    }
+    .coursesDirector{
+        font-size: 0.5rem;
+    }
+}
+@media screen and (min-width:1024px) and (max-width:1280px){
+    .landingpage{
+        background-color: rgb(224, 163, 175);
+        border-radius: 10px;
+    }
+    .WebsiteTitle{
+        margin-top: 2%;
+        font-size: 15rem;
+    }
+    .nav{
+        background-color: rgb(224, 163, 175);
+        padding: 2%;
+        display: flex;
+        flex-direction: column;
+        gap:0;
+        font-size: 3rem;
+        border-radius: 20px;
+    }
+    .signIn{
+        margin-top: 1%;
+        margin-left: 12%;
+        text-decoration: none;
+        color:black;
+    }
+    .coursesDirector{
+        padding: 5px;
+        width: 10%;
+        color: black;
+        text-decoration: none;
+        border-radius: 10px;
+        margin-left: 10%;
+        margin-top: 1%;
+        font-size: 3rem;
+        display:none ;
+
+    }
+    .body{
+        display: flex;
+        flex-direction: column;
+        gap: 20%;
+        padding: 2%;
+        font-size: 2rem;
+    }
+    .footer{
+        background-color: aliceblue;
+        border-radius: 0 10px 0 10px;
+        margin-left: 2%;
+    }
+    .previewAtFooter{
+        list-style: none;
+        display: flex;
+        gap:20%;
+        font-size: 1rem;
+    }
+    .studyAnytime{
+        font-size: 5rem;
+        margin-bottom: 2%;
+    }
+    .learnArea{
+        padding: 10px;
+        border-radius: 20px;
+        font-size: 1.5rem;
+        margin-left: 10%;
+    }
+    .image{
+        width:100%;
+        border-radius:10px ;
+        margin-top: 10%;
+    }
+    .signupButton{
+        padding: 10px;
+        width: 60%;
+        background-color: blueviolet;
+        margin-top: 10%;
+        border-radius: 20px;
+        font-size: 1.5rem;
+    }
+    .searchBar{
+        padding: 10px;
+        width: 60%;
+        border-radius: 20px;
+        margin-top: 5%;
+        background-color: rgb(224, 163, 175);
+        font-size: 1.5rem;
+    }
+    .WebsiteTitle{
+        font-size: 1rem;
+    }
+    .coursesDirector{
         font-size: 0.5rem;
     }
 }
